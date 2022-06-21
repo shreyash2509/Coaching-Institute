@@ -21,9 +21,13 @@ body{
     font-family: 'Roboto', sans-serif;
     padding: 20px;
     color: white;
-    
+    display: flex;
     text-decoration: none;
+    align-items: center;
  
+}
+.menu img{
+  height: 10vh;
 }
 .left{
     padding-left: 20px;
@@ -144,6 +148,9 @@ border-radius: 0;
     }
     .menu a{
         font-size: 100px;
+    }
+    .menu img{
+      display:none;
     }
    .navbar{
     width: 100%;
