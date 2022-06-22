@@ -7,47 +7,48 @@
     <link rel="stylesheet" href="assets/css/frontpage.css">
     <link rel="stylesheet" href="assets/css/utilities.css">
     <link rel="stylesheet" href="assets/css/copyright.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>The Mercy School</title>
     <link rel="icon" type="image/x-icon" href="assets/images/Screenshot_2022-06-21_125940-removebg-preview.png">
 </head>
 <body>
-   <div class="navbar flex">
-<div class="left ">
-<h1 class="headings "><a class="menu" href="index.html"><img src="assets/images/Screenshot_2022-06-21_125940-removebg-preview.png"> The Mercy School</a></h1>
-    
-<!--Navbar left end-->
-</div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg static-top">
+        <div class="container">
+          <a class="navbar-brand d-flex" href="../../index.html">
+            <img src="assets/images/Screenshot_2022-06-21_125940-removebg-preview.png" alt="..." height="36">
+          <h3 class="ml-2">The Mercy School</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1" aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nav1">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Admission</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Prospectus</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="assets/link/aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="assets/link/achivements.html">Achievements</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Contact us</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-<div class="mid ">
-
-<ul class="list flex">
-    <li ><a class="menu" href="#">Admission</a></li>
-    <li ><a class="menu" href="#">Prospectus</a></li>
-    <li ><a class="menu" href="#">Gallery</a></li>
-</ul>
-   
-    <!--Navbar mid end--> 
-</div>
-
-<div class="right ">
-    <ul class="list flex">
-        <li ><a class="menu" href="#">About us</a></li>
-        <li ><a class="menu" href="#">Contact Us</a></li>
-        <li ><a class="menu" href="assets/link/achivements.html">Achievements</a></li>
-    </ul>
-
-
-    
-<!--Navbar right end-->
-</div>
-
-
-
-<!--Navbar end-->
-
-</div>
     <!--Containers Start-->
-    <div class="container">
+    <div class="containerf">
 <div class="container-inside">
  
 </div>
@@ -59,8 +60,8 @@
   
 </h1>
 </div>
-<div class="message">
-<h1 style=" text-align: center;" class="pm" >Principal message:</h1>
+<div class="message" id="p1">
+<h1 style=" text-align: center;" class="pm">Principal message:</h1>
 <br>
 <div class="article">
 <img src="assets/images/principle.jpg" alt="" class="principle">
@@ -77,16 +78,16 @@
 <div class="doc">
     <h1 class=" ">Documents</h1>
     <ul class="list flex">
-        <li><a class="docopt" href="">Design Report</a></li>
-        <li><a class="docopt" href="">Innovation Report</a></li>
-        <li><a class="docopt" href="">Design Report</a></li>
+        <li><a class="docopt" href="">Admission form</a></li>
+        <li><a class="docopt" href="">Holiday list</a></li>
+        <li><a class="docopt" href="">Book list</a></li>
     </ul>
 </div>
 
 </div>
      <footer >
        <ul class="list footlist">
-        <li class="footmenu"><a class="footmenu" href="#">AboutUs</a> </li>
+        <li class="footmenu"><a class="footmenu" href="assets/link/aboutus.html">AboutUs</a> </li>
         <li class="footmenu"><a class="footmenu" href="#">Contact Us</a> </li>
         <li class="footmenu"><a class="footmenu" href="assets/link/achivements.html">Achivements</a> </li>
        </ul>
@@ -99,8 +100,10 @@
    
      </footer>
 
-     <script src="index.js">
-
-     </script>
+     <script src="index.js"></script>
+     
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

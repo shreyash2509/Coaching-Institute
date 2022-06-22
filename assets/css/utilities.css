@@ -6,15 +6,18 @@
 }
 
 .flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: flex!important;
+    justify-content: space-around!important;
+    align-items: center!important;
+    flex-wrap: nowrap!important;
 }
 .list{
  
      list-style: none;
 }
-
+.bg{
+  background-color: purple;
+}
 .titles{
   font-weight: 100;
   width: 100%;
