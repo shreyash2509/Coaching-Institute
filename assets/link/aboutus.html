@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/frontpage.css">
-    <link rel="stylesheet" href="../css/utilities.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/copyright.css">
     <link rel="stylesheet" href="../css/aboutus.css">
     
@@ -20,35 +19,37 @@
 </head>
 <body onload="change(1)">
    
-    <nav class="navbar navbar-expand-lg navbar-dark bg static-top">
-        <div class="container">
-          <a class="navbar-brand d-flex" href="../../index.html">
-            <img src="../images/Screenshot_2022-06-21_125940-removebg-preview.png" alt="..." height="36">
-          <h3 class="ml-2">The Mercy School</h3>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1" aria-controls="nav1" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar sticky-top bg-light navbar-expand-lg navbar-light   ">
+        <div class="container-fluid  " id="navv">
+           <a href="../../index.html" class="Headings"><img src="../images/logo.png" alt="" class="logo d-inline-block align-top"><h3 class="headings" style="display:inline ;">The Mercy School</h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="nav1">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Admission</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Prospectus</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../link/aboutus.html">About us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../link/achivements.html">Achievements</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Contact us</a>
-                </li>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto p-4">
+              <li class="nav-item">
+                <a class="options active" aria-current="page" href="#">Admissons</a>
+              </li>
+              <li class="nav-item">
+                <a class="options active" href="../link/gallery.html">Gallery</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="options active" href="../link/aboutus.html">About us</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="options active" href="#">Contact us</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="options active" href="../link/achivements.html">Achivements</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="options active" href="../link/result.html">Results</a>
+              </li>
+              
             </ul>
           </div>
         </div>
@@ -86,20 +87,92 @@
         </div>
 
 
-        <footer style="margin-top: 66px;" >
-            <ul class="list footlist">
-             <li class="footmenu"><a class="footmenu" href="#">AboutUs</a> </li>
-             <li class="footmenu"><a class="footmenu"href="#">Contact Us</a> </li>
-             <li class="footmenu"><a class="footmenu"href="#">Achivements</a> </li>
+        <footer class="footer shadow-l">
+            <div class="footer__addr">
+              <h1 class="footer__logo headings">The Mercy School</h1>
+                  
+              <h2>Contact</h2>
+              
+              <address>
+                 In Khrar<br>
+                    
+                
+              </address>
+            </div>
+            
+            <ul class="footer__nav ">
+              <li class="nav__item">
+                <h2 class="nav__title">Blog</h2>
+          
+                <ul class="nav__ul">
+                  <li>
+                    <a href="../link/gallery.html">Gallery</a>
+                  </li>
+                      
+                  <li>
+                    <a href="../link/aboutus.html">About Us</a>
+                  </li>
+                </ul>
+              </li>
+              
+              <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">Important links</h2>
+                
+                <ul class="nav__ul nav__ul--extra">
+                  <li>
+                    <a href="#">Admissions</a>
+                  </li>
+                  
+                  <li>
+                    <a href="../link/achivements.html">Achivements</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Contact Us</a>
+                  </li>
+                  
+                  <li>
+                    <a href="../link/aboutus.html#l2">Our Mission</a>
+                  </li>
+                  
+                  <li>
+                    <a href="../link/result.html">Result</a>
+                  </li>
+                  
+                  <li>
+                    <a href="../link/achivements.html">Achievements</a>
+                  </li>
+                </ul>
+              </li>
+              
+              <li class="nav__item">
+                <h2 class="nav__title">Legal</h2>
+                
+                <ul class="nav__ul">
+                  <li>
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Terms of Use</a>
+                  </li>
+                  
+                  <li>
+                    <a href="#">Sitemap</a>
+                  </li>
+                </ul>
+              </li>
             </ul>
-            <p class="copyright">Copyright &copy; 2022 - Client Name. All Rights Reserved. || Magically Created by
-                <a href=" https://www.thewizards.me" target="_blank">
-                  <img class="logo-bottom" src="../images/wiz.png">The&nbsp;Wizards
-                </a>
+            
+            <div class="legal">  
+              <p class="copyright">Copyright &copy; 2022 - Client Name. All Rights Reserved. || Magically Created by
+              <a href=" https://www.thewizards.me" target="_blank">
+                <img class="logo-bottom" src="../images/wiz.png">The&nbsp;Wizards
+              </a>
           </p>
-           
-        
+            </div>
           </footer>
+          
           <script src="../js/aboutus.js"></script>
           <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

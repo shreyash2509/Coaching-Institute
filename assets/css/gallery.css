@@ -1,64 +1,55 @@
-.gallery {
-  padding-top: 30px;
-  height: 90vh
+
+div.gallery {
+  border: 1px solid #ccc;
 }
-.gallery h1 {
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
   text-align: center;
-  font-weight: 500;
-  font-family: rotis_semi_serif;
-  color: white;
-  margin: auto;
-  width: 80%;
-  background-color: purple;
-  -webkit-box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 3px 15px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 1.2rem;
-  padding: 20px;
-}
-.gallery {
-  margin-bottom: 20px;
 }
 
-
-.gallery-shadow {
-  border-radius: 100px;
-  height: 78%;
-  overflow: hidden;
-  margin: 4vh 6vw;
+* {
+  box-sizing: border-box;
 }
 
-.swiper-container {
-  width: 100%;
-  height: 100%
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
 }
 
-.swiper-container .swiper-slide {
-  background-position: center;
-  background-size: cover;
-  height: 25rem;
-  width: 25rem;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  border-radius: 2em
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
 
-.swiper-container .swiper-slide img {
-  width: 100%;
-  height: 100%;
-  border-radius: 2em
-}
-.gallery-shadow {
-  background-color: #fafdff;
-  box-shadow: -2px -2px 20px 2px purple inset;
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
 
-.gallery a{
-  color: white;
-  text-decoration: none;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.gallery a:hover{
-  color: white;
-  text-decoration: none;
+.gal_box{
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin: 10vh 3vw;
 }

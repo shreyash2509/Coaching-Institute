@@ -77,11 +77,11 @@
   padding: 0.5rem;
 }
 
-.navbar a:hover{
+/* .navbar a:hover{
   background-color: rgba(128, 128, 128, 0.502);
       color: white;
    border-radius: 40px;
-  }
+  } */
 .navbar li:hover{
   transform: scale(1.05);
  
