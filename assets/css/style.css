@@ -178,6 +178,17 @@ a:hover{
       margin-left: auto;
     }
   }
+  @media screen and (max-width: 992px) {
+    a:hover{
+      background-color:transparent;
+  }
+  .options{
+    padding: 0;
+  }
+ .navbar-nav li{
+    padding: 1vh 0;
+  }
+  }
   
   @media screen and (min-width: 40.375em) {
     .footer__nav > * {
