@@ -3,7 +3,7 @@
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
 }
-
+body{overflow-x: hidden;}
 .heading {
   text-align: center;
   margin-block-start: 3.2rem;
@@ -53,9 +53,10 @@
 }
 
 .detailAchvmnt {
-  margin-inline: 5rem;
-  margin-block: 2rem;
+  margin: 4vw 8vw 0;
   height: 58rem;
+  display: inline-table;
+
 }
 .achvmntImg:hover {
   box-shadow: 8px 7px 44px -9px rgba(0, 0, 0, 0.75);
@@ -71,7 +72,7 @@
 .achvmntImg {
   display: flex;
   flex-direction: row;
-  height: 70%;
+  /* height: 70%; */
 }
 .achvmtbrief {
   padding: 0.5rem;
@@ -86,3 +87,13 @@
   transform: scale(1.05);
  
 }
+
+.card{
+  align-items: center;
+}
+.card-body{
+  height: 24vh;
+}
+.achievements:last-child {margin-bottom: 5vh;
+}
+
