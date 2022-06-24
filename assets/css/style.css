@@ -27,9 +27,9 @@ body{
 }
 
 /*card achivements */
-.card:hover{
+/* .card:hover{
     background-color:orange !important ;
-}
+} */
 .card-title{
     color: black;
 }
@@ -232,7 +232,18 @@ hr{border-top: 1px solid rgb(0 0 0)!important;}
     align-items: center;
   }
   }
+  @media screen and (max-width: 884px) {
+    .row{
+      flex-flow: column;
+    }
+  }
   
-  a.Headings {
+    a.Headings {
     display: flex;
-   }
+    }
+  .container-fluid a:hover{
+   background-color: transparent;
+  }
+   /* .row>* {
+    flex: 1 1 30vw;
+} */
