@@ -1,5 +1,15 @@
 function change(x){
-  document.getElementById("he1").innerHTML = str[x-1];
+  if(x!=4){
+    document.getElementById("he1").style.display="block";
+    document.getElementById("he1").innerHTML = str[x-1];
+    document.getElementById("p1").style.display="none";
+  }
+  else if(x==4){
+  document.getElementById("p1").style.display ="block";
+  
+  document.getElementById("he1").style.display="none";
+
+  }
 }
 
 

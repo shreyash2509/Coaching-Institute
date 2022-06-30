@@ -2,7 +2,7 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: #571581;
+  /* background-color: #571581; */
   padding: 1rem 0;
   text-align: center;
   color:white;
@@ -12,7 +12,7 @@ footer .copyright a {
   display: inline-block;
   font-weight: 700;
   color: black;
-  background-color: white;
+  /* background-color: white; */
   padding: 3px;
   width: fit-content;
   border-radius: 5px;

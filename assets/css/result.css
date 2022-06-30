@@ -79,7 +79,7 @@ tr:nth-child(odd) {
     padding: 1.2rem;
     text-align: center;
   } 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 .studentImage img { 
   width: 19vw;
   height: 14vw;
@@ -101,3 +101,14 @@ tr:nth-child(odd) {
 }
 
   body{overflow-x: hidden;}
+
+@media screen and (max-width: 883px) {
+.row{
+  align-items: center;
+}
+}
+@media screen and (max-width:883px) and (min-width:575px){
+.col-sm-4{
+  width: 70.33333%!important;
+}
+}

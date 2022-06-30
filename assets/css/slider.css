@@ -18,13 +18,18 @@
 .gallery {
   margin-bottom: 20px;
 }
-
+th{
+  border-bottom-width:0!important;
+}
+td{
+  border-bottom-width:0!important;
+}
 
 .gallery-shadow {
   border-radius: 100px;
   height: 78%;
   overflow: hidden;
-  margin: 4vh 6vw;
+  margin: 4vh 14vw;
 }
 
 .swiper-container {
