@@ -2,23 +2,41 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
     box-sizing: border-box;
     font-family: 'Joan', serif !important;
 }
 
 
 /*body */
-body{
+/* body{
     background-color: rgba(211, 211, 211, 0.13);
 }
+ */
+ body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 1100%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 /* titles  and headings */
 .headings{
     
     font-family: 'Joan', serif;
     font-size: 30px;
-    color:rgba(0, 0, 0, 0.617);
   
     font-weight: bolder;
 
@@ -30,9 +48,10 @@ body{
 /* .card:hover{
     background-color:orange !important ;
 } */
-.card-title{
-    color: black;
+.card-text{
+    color:#00fff3;
 }
+
 
 
 /*anchor tags */
@@ -76,8 +95,8 @@ a:hover{
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
     color: black;
-    background-color: #fff;
-    border-top: 1px solid #e5e5e5;
+    /* background-color: #fff;
+    border-top: 1px solid #e5e5e5; */
   }
   
   .footer > * {
@@ -208,10 +227,12 @@ a:hover{
     }
   }
 
-a:hover{color: black!important;
-text-decoration: none!important;}
+a:hover{
+  color: white!important;
+text-decoration: none!important;
+}
 a{
-  color: black!important;
+  color: white!important;
   text-decoration: none!important;
 }
 
@@ -247,3 +268,55 @@ hr{border-top: 1px solid rgb(0 0 0)!important;}
    /* .row>* {
     flex: 1 1 30vw;
 } */
+
+@media screen and (max-width: 600px) {
+  .navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+.headings{color: rgba(0, 0, 0, 0.617);}
+
+a:hover{
+  color: rgb(0, 0, 0)!important;
+text-decoration: none!important;
+}
+a{
+  color: black!important;
+  text-decoration: none!important;
+}
+  }
+
+    
+@media screen and (max-width: 883px) {
+  .row{
+    align-items: center;
+  }
+}
+@media screen and (max-width:883px) and (min-width:575px){
+  .col-sm-4{
+    width: 70.33333%!important;
+  }
+}
+
+.ah1{
+  transition: transform 0.5s;
+
+
+}
+.col-sm-4>.ah1:hover{
+  background-color: var(--bs-gray-800)!important;
+  filter: blur(0);
+  transform: none; 
+}
+.col-sm-4>.ah1{
+  transform: skewX(7deg);
+  filter: blur(0.5px);
+}
+
+.ah1:hover{
+ 
+  transform: scale(1.1);
+}

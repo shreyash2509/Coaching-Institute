@@ -75,3 +75,4 @@ function animateValue(obj, start, end, duration) {
     }
   
   });
+

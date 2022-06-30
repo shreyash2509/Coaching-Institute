@@ -97,3 +97,14 @@ body{overflow-x: hidden;}
 .achievements:last-child {margin-bottom: 5vh;
 }
 
+
+@media screen and (max-width: 883px) {
+  .row{
+    align-items: center;
+  }
+  }
+  @media screen and (max-width:883px) and (min-width:575px){
+  .col-sm-4{
+    width: 70.33333%!important;
+  }
+  }
