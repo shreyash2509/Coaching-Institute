@@ -155,7 +155,11 @@ a{
 }
   }
 
-
+  @media screen and (max-width: 992px) {
+ .navbar-nav li{
+    padding: 1vh 0;
+  }
+  }
     
 @media screen and (max-width: 884px) {
   .row{

@@ -19,20 +19,12 @@
 }
 
 
-tr:nth-child(even) {
-    
-    background-color: #dddddd;
-  }
-  tr:nth-child(even):hover {
-    background-color: white;
-  }
-tr:nth-child(odd) {
-    background-color: #dddddd;
-  }
-  tr:nth-child(odd):hover {
-    background-color: white;
-  }
-
+tr{    
+  background-color: transparent!important;
+}
+tr:hover{    
+  background-color: transparent!important;
+}
 
   .statistics {
     display: flex;
@@ -41,7 +33,7 @@ tr:nth-child(odd) {
     margin-block: 2rem;
   }
   .statsbox:hover {
-    background-color: white;
+    /* background-color: white; */
     color: #767676;
     border: 1px #767676 solid;
     /* transition: white 4000ms linear; */
@@ -58,6 +50,12 @@ tr:nth-child(odd) {
     /* height: 17rem */
   }
   
+  .card1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
   .innerstatistics {
     display: flex;
     flex-direction: column;
@@ -72,7 +70,12 @@ tr:nth-child(odd) {
     font-size: 80px;
     font-weight: bolder;
   }
-  
+  tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
   
   
   .numberInfo {
@@ -96,6 +99,9 @@ tr:nth-child(odd) {
   .card-body{
     height: 24vh;
   }
+  .crad1>.card-body{
+   margin-bottom: 4vh;
+  }
 .header{
   margin-top: 10vh;
 }
@@ -118,6 +124,13 @@ tr:nth-child(odd) {
 
 }
 .ah2:hover{
+
+  transform: scale(1.1);
+}
+.ah3{
+  transition: transform 0.5s;
+}
+.ah3:hover{
 
   transform: scale(1.1);
 }
