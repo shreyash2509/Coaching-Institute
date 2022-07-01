@@ -74,6 +74,7 @@ td{
   .swiper-container .swiper-slide{
    height: 20rem;
   }
+  .gallery-shadow{margin: 4vh 2vw;}
  
    }
 @media screen and (max-width: 436px) {
