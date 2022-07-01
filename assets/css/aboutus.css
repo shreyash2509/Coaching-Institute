@@ -37,19 +37,19 @@ ul {
 }
 .about-page1-inner .about-page-content-holder .content-box h2 {
   font-size: 30px;
-  color: #00a85b;
+  /* color: #00a85b; */
   margin-bottom: 15px;
   font-weight: 700;
 }
 .about-page1-inner .about-page-content-holder .content-box h3 {
   font-size: 22px;
-  color: #063d23;
+  /* color: #063d23; */
   margin-bottom: 15px;
   font-weight: 700;
 }
 
 .about-page1-inner .about-page-content-holder .content-box p {
-  color: #444;
+  /* color: #444; */
 }
 p {
   line-height: 1.5;
@@ -81,3 +81,11 @@ h3.sidebar-title:before {
 .change{
   color: yellow;
 }
+
+ul>li>p{
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+ul>li>p:hover{cursor: pointer;}

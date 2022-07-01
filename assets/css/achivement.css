@@ -108,3 +108,12 @@ body{overflow-x: hidden;}
     width: 70.33333%!important;
   }
   }
+  .ah2{
+    transition: transform 0.5s;
+  
+  
+  }
+  .ah2:hover{
+ 
+    transform: scale(1.1);
+  }
