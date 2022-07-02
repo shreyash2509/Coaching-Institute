@@ -32,6 +32,13 @@
       rel="stylesheet"
       href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
     />
+    <style>@media screen and (max-width: 600px) {
+        .navo1{
+          --bs-bg-opacity: 0;
+          background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+      }
+    }
+    </style>
   </head>
   <body onload="class1(1)">
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -161,7 +168,7 @@
     </div>
     <!--caraosuel end-->
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navo1 navbar-expand-lg navbar-light">
       <div class="container-fluid" style="justify-content: center">
         <button
           class="navbar-toggler"
