@@ -54,7 +54,7 @@ td{
   border-radius: 2em
 }
 .gallery-shadow {
-  background-color: #fafdff;
+  /* background-color: #fafdff; */
   box-shadow: -2px -2px 20px 2px purple inset;
 }
 
